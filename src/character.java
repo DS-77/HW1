@@ -18,7 +18,7 @@ public abstract class character {
 //    This method needs to be implemented by the children.
     public abstract void display ();
 
-    public setWeaponBehavior(WeaponBehavior wb) {
+    public void setWeaponBehavior(WeaponBehavior wb) {
         this.weaponBehavior = wb;
     }
 }
