@@ -3,7 +3,7 @@ public abstract class character {
     protected String name;
 
 //    TODO: Implement this class.
-//    protected WeaponBehavior weaponBehavior;
+    protected WeaponBehavior weaponBehavior;
 
 //    Parameterized Constructor
     public character( String name) {
@@ -17,5 +17,9 @@ public abstract class character {
 
 //    This method needs to be implemented by the children.
     public abstract void display ();
+
+    public setWeaponBehavior(WeaponBehavior wb) {
+        this.weaponBehavior = wb;
+    }
 }
 
