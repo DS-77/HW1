@@ -14,7 +14,7 @@ public class Queen  extends Character{
      */
     @Override
     public void display() {
-        System.out.printf("%s is a beautiful queen", this.name);
+        System.out.printf("%s is a beautiful queen %n", this.name);
     }
 
     /**

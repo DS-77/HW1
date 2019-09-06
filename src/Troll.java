@@ -14,7 +14,7 @@ public class Troll extends Character {
      */
     @Override
     public void display() {
-        System.out.printf("%s is a funny troll", this.name);
+        System.out.printf("%s is a funny troll %n", this.name);
     }
 
     /**

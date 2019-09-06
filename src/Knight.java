@@ -14,7 +14,7 @@ public class Knight extends Character {
      */
     @Override
     public void display() {
-        System.out.printf("%s is a valiant knight", this.name);
+        System.out.printf("%s is a valiant knight %n", this.name);
     }
 
     /**

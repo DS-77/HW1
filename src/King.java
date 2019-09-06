@@ -14,7 +14,7 @@ public class King extends Character {
      */
     @Override
     public void display() {
-        System.out.printf("%s is a Noble King", this.name);
+        System.out.printf("%s is a Noble King %n", this.name);
     }
 
     /**
