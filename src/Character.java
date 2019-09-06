@@ -1,4 +1,4 @@
-public abstract class character {
+public abstract class Character {
 
     protected String name;
     protected WeaponBehavior weaponBehavior;
@@ -7,7 +7,7 @@ public abstract class character {
      * This method is the parameterized constructor for the Character class.
      * @param name is the string that will be set as the character's name.
      */
-    public character( String name) {
+    public Character(String name) {
         this.name = name;
     }
 
