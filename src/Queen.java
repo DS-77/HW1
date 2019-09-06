@@ -1,7 +1,7 @@
 public class Queen  extends Character{
 
     /**
-     * This method is the parameterized constructor for the Queen object.
+     * This method is the parameterized constructor for the Queen object. It also sets the default weaponBehavior.
      * @param name is the String value to be set as the object's name property.
      */
     public Queen(String name) {
@@ -10,7 +10,7 @@ public class Queen  extends Character{
     }
 
     /**
-     * This method displays an unique message to the user's screen.
+     * This method displays an unique message with object's name to the user's screen.
      */
     @Override
     public void display() {
