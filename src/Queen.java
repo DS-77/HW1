@@ -1,12 +1,12 @@
-public class King extends Character {
+public class Queen  extends Character{
 
     /**
-     * This method is the parameterized constructor for the King object.
+     * This method is the parameterized constructor for the Queen object.
      * @param name is the String value to be set as the object's name property.
      */
-    public King(String name) {
+    public Queen(String name) {
         super(name);
-        setWeaponBehavior(new WeaponSword());
+        setWeaponBehavior(new WeaponKnife());
     }
 
     /**
@@ -14,6 +14,6 @@ public class King extends Character {
      */
     @Override
     public void display() {
-        System.out.printf("%s is a Noble King", this.name);
+        System.out.printf("%s is a beautiful queen", this.name);
     }
 }
