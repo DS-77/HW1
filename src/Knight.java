@@ -1,7 +1,7 @@
 public class Knight extends Character {
 
     /**
-     * This method is the parameterized constructor for the King object. It also sets the default weaponBehavior.
+     * This method is the parameterized constructor for the Knight object. It also sets the default weaponBehavior.
      * @param name is the String value to be set as the object's name property.
      */
     public Knight(String name) {
