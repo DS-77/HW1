@@ -16,4 +16,13 @@ public class Knight extends Character {
     public void display() {
         System.out.printf("%s is a valiant knight", this.name);
     }
+
+    /**
+     * This method changes the type of weaponBehavior the Knight has.
+     * @param wb is the weaponBehavior object to be set as the Knight object's weaponBehavior.
+     */
+    @Override
+    public void setWeaponBehavior(WeaponBehavior wb) {
+        super.setWeaponBehavior(wb);
+    }
 }

@@ -16,4 +16,13 @@ public class Queen  extends Character{
     public void display() {
         System.out.printf("%s is a beautiful queen", this.name);
     }
+
+    /**
+     * This method changes the type of weaponBehavior the Queen has.
+     * @param wb is the weaponBehavior object to be set as the Queen object's weaponBehavior.
+     */
+    @Override
+    public void setWeaponBehavior(WeaponBehavior wb) {
+        super.setWeaponBehavior(wb);
+    }
 }
